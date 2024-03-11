@@ -46,7 +46,7 @@ export const FirstSectionHome = () => {
     };
     return (
     <>  
-        <div className='p-9 bg-black flex justify-around items-center pt-24'>
+        <div className='p-9 bg-black gap-lg-0 gap-14 flex flex-lg-row flex-col fle d-lg-flex justify-around items-center pt-24'>
             <div>
                     <TypeAnimation 
                         sequence={[
@@ -62,31 +62,31 @@ export const FirstSectionHome = () => {
                         repeat={Infinity}
                     /> 
                 <h3 className='text-white'>Web devlopper</h3>
-                <p className='text-white w-[40vw]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique eligendi, magni temporibus quaerat placeat recusandae! Laudantium quidem dolorum voluptatum?</p>
+                <p className='text-white lg:w-[40vw]'>I am Essalmi mohamed , a dedicated and passionate Web Developer with a strong background in crafting robust and user-centric web solutions. With 2ére of experience in the field, I bring a wealth of knowledge and expertise in front-end and front-end development, coupled with a keen eye for design and usability.</p>
             </div>
             <div className='image '>
-                <img src={img5} className='h-[50vh] pl-12 ' alt="" />
+                <img src={img5} className='lg:h-[50vh] lg:pl-12 pl-14  ' alt="" />
             </div>
         </div>
         <div className='bg-black p-2 text-white text-center '  >
             <h1>About <span className='text-red-600'>Me</span></h1>
         </div>
-        <div className='flex items-center p-12 justify-around text-white bg-black'>
+        <div className='d-lg-flex flex-lg-row flex-col gap-lg-0 gap-4 flex flex-col lg:items-center p-12 justify-around text-white bg-black'>
         <div >
-                <img src={img1} className='w-[32vw] rounded h-[50vh]' alt="" />
+                <img src={img1} className='lg:w-[32vw] w-[100vw] rounded h-[50vh]' alt="" />
             </div>
             <div className='flex flex-col gap-3'>
                 <h2 className='text-red-600'>Full-Stack web Developer </h2>
-                <p className='w-[40vw]' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fugit quia quisquam illo autem iure libero,
+                <p className='lg:w-[40vw]' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fugit quia quisquam illo autem iure libero,
                     sapiente dolore molestias rem est eius ipsum voluptas eaque. Ipsum ea ut ipsam voluptatibus!</p>
-                <button className='bg-red-800 text-white button2'>Read More</button>
+                <button className='bg-red-800 lg:w-[10vw] lg:h-[7vh] rounded-xl text-white button2'>Read More</button>
             </div>
         </div>
         <div className='bg-black p-2 text-white text-center'>
             <h1>My <span className='text-red-600'>SKILLS</span></h1>
         </div>
     <div className='flex flex-col'>
-        <div className='flex gap-2 p-5 bg-black justify-around'>
+        <div className='d-lg-flex flex flex-lg-row flex-col  gap-2 p-5 bg-black justify-around'>
             <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
                 <FaHtml5 className='size-20' />
                 <p>HTML</p>
@@ -116,7 +116,7 @@ export const FirstSectionHome = () => {
                 <p>Laravel</p>
             </div>
         </div>
-        <div className='flex gap-16 pl-24 bg-black'>
+        <div className='d-lg-flex flex flex-lg-row flex-col  gap-16 lg:pl-24 bg-black'>
             <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
                 <FaSass  className='size-20' />
                 <p>Sass</p>
@@ -130,13 +130,13 @@ export const FirstSectionHome = () => {
         <div className='bg-black p-2 text-white text-center'>
             <h1>My <span className='text-red-600'>PROJECT</span></h1>
         </div>
-    <div className='bg-black p-6 flex justify-around'>
+    <div className='bg-black p-6 d-lg-flex flex-lg-row flex-col gap-lg-0 gap-5 flex justify-around'>
         <div className='flex flex-col gap-3 items-center justify-center'>
-            <img src={img2} className='w-[40vw] border-4 border-red-600' alt="" />
+            <img src={img2} className='lg:w-[40vw] border-4 border-red-600' alt="" />
             <button className='border-1 border-white text-white p-2 rounded-2xl'>View project</button>
         </div>
         <div className='flex flex-col gap-3 items-center justify-center'>
-            <img src={img3} className='w-[40vw] border-4 border-red-600' alt="" />
+            <img src={img3} className='lg:w-[40vw] border-4 border-red-600' alt="" />
             <button className='border-1 border-white text-white p-2 rounded-2xl'>View project</button>
         </div>
     </div>
@@ -144,10 +144,10 @@ export const FirstSectionHome = () => {
             <h1>Contact <span className='text-red-600'>Us</span></h1>
         </div>
         <form className="flex bg-black flex-col items-center justify-center gap-3 p-4 " ref={form} onSubmit={sendEmail}>
-                <input className="border-2 border-red-600 p-2 w-[30vw] rounded-xl bg-black" type="text" name="to_name" placeholder='Your Name' />
-                <input className="border-2 border-red-600 p-2 w-[30vw] rounded-xl bg-black" type="email" name="to_email" placeholder='Your Email'/>
-                <textarea className="border-2 border-red-600 p-2 h-60 w-[30vw] rounded-xl bg-black" name="message" placeholder='Your Message'/>
-                <input className="border-none bg-red-600 p-2 w-[15vw] text-white rounded-2xl"   type="submit" value="Send" />
+                <input className="border-2 border-red-600 p-2 lg:w-[30vw] w-[80vw]  rounded-xl bg-black" type="text" name="to_name" placeholder='Your Name' />
+                <input className="border-2 border-red-600 p-2 lg:w-[30vw] w-[80vw]  rounded-xl bg-black" type="email" name="to_email" placeholder='Your Email'/>
+                <textarea className="border-2 border-red-600 p-2 h-60 w-[80vw] lg:w-[30vw] rounded-xl bg-black" name="message" placeholder='Your Message'/>
+                <input className="border-none bg-red-600 p-2 w-[80vw] lg:w-[15vw] text-white rounded-2xl"   type="submit" value="Send" />
             </form>
     </>
     )
