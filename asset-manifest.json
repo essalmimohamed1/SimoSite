@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SimoSite/static/css/main.1afe6ac9.css",
-    "main.js": "/SimoSite/static/js/main.71e273ab.js",
+    "main.css": "/SimoSite/static/css/main.e2d01921.css",
+    "main.js": "/SimoSite/static/js/main.11a491be.js",
     "static/media/WhatsApp Image 2024-02-21 at 16.07.18.jpeg": "/SimoSite/static/media/WhatsApp Image 2024-02-21 at 16.07.18.5793154e0f9c7cd92fad.jpeg",
     "static/media/P1083180-removebg-preview.png": "/SimoSite/static/media/P1083180-removebg-preview.fe69e949f79626b66cf9.png",
     "static/media/WhatsApp Image 2024-03-10 at 00.16.27.jpeg": "/SimoSite/static/media/WhatsApp Image 2024-03-10 at 00.16.27.2345d77c0fd45471a96d.jpeg",
     "static/media/WhatsApp Image 2024-03-10 at 00.15.59.jpeg": "/SimoSite/static/media/WhatsApp Image 2024-03-10 at 00.15.59.b1930607b23edc754545.jpeg",
     "index.html": "/SimoSite/index.html",
-    "main.1afe6ac9.css.map": "/SimoSite/static/css/main.1afe6ac9.css.map",
-    "main.71e273ab.js.map": "/SimoSite/static/js/main.71e273ab.js.map"
+    "main.e2d01921.css.map": "/SimoSite/static/css/main.e2d01921.css.map",
+    "main.11a491be.js.map": "/SimoSite/static/js/main.11a491be.js.map"
   },
   "entrypoints": [
-    "static/css/main.1afe6ac9.css",
-    "static/js/main.71e273ab.js"
+    "static/css/main.e2d01921.css",
+    "static/js/main.11a491be.js"
   ]
 }
