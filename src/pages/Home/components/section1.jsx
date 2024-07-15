@@ -77,8 +77,7 @@ export const FirstSectionHome = () => {
             </div>
             <div className='flex flex-col gap-3'>
                 <h2 className='text-red-600'>Full-Stack web Developer </h2>
-                <p className='lg:w-[40vw]' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam fugit quia quisquam illo autem iure libero,
-                    sapiente dolore molestias rem est eius ipsum voluptas eaque. Ipsum ea ut ipsam voluptatibus!</p>
+                <p className='lg:w-[40vw]' >I am Essalmi mohamed , a dedicated and passionate Web Developer with a strong background in crafting robust and user-centric web solutions. With 2ére of experience in the field, I bring a wealth of knowledge and expertise in front-end and front-end development, coupled with a keen eye for design and usability</p>
                 <button className='bg-red-800 lg:w-[10vw] lg:h-[7vh] rounded-xl text-white button2'>Read More</button>
             </div>
         </div>
