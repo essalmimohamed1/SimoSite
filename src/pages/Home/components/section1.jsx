@@ -14,7 +14,14 @@ import img2  from '../../../assets/images/WhatsApp Image 2024-03-10 at 00.15.59.
 import img3  from '../../../assets/images/WhatsApp Image 2024-03-10 at 00.16.27.jpeg'
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import img5  from '../../../assets/images/P1083180-removebg-preview.png'
+import img5  from '../../../assets/images/P1085112-removebg-preview.png'
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+
+
+
 
 
 
@@ -58,69 +65,74 @@ export const FirstSectionHome = () => {
                         ]}
                         wrapper="span"
                         speed={50}
-                        style={{ fontSize: '3em', display: 'inline-block' , color: 'red' }}
+                        style={{ fontSize: '3em', display: 'inline-block' , color: 'rgba(0, 102, 255, 0.532)' }}
                         repeat={Infinity}
                     /> 
                 <h3 className='text-white'>Web devlopper</h3>
                 <p className='text-white lg:w-[40vw]'>I am Essalmi mohamed , a dedicated and passionate Web Developer with a strong background in crafting robust and user-centric web solutions. With 2ére of experience in the field, I bring a wealth of knowledge and expertise in front-end and front-end development, coupled with a keen eye for design and usability.</p>
             </div>
-            <div className='image '>
-                <img src={img5} className='lg:h-[50vh] lg:pl-12 pl-14  ' alt="" />
+            <div className='image'>
+                <img src={img5} className='pr-5' alt="" />
             </div>
         </div>
         <div className='bg-black p-2 text-white text-center '  >
-            <h1>About <span className='text-red-600'>Me</span></h1>
+            <h1>About <span className='text-blue-900'>Me</span></h1>
         </div>
         <div className='d-lg-flex flex-lg-row flex-col gap-lg-0 gap-4 flex flex-col lg:items-center p-12 justify-around text-white bg-black'>
         <div >
                 <img src={img1} className='lg:w-[32vw] w-[100vw] rounded h-[50vh]' alt="" />
             </div>
             <div className='flex flex-col gap-3'>
-                <h2 className='text-red-600'>Full-Stack web Developer </h2>
+                <h2 className='text-blue-900'>Full-Stack web Developer </h2>
                 <p className='lg:w-[40vw]' >I am Essalmi mohamed , a dedicated and passionate Web Developer with a strong background in crafting robust and user-centric web solutions. With 2ére of experience in the field, I bring a wealth of knowledge and expertise in front-end and front-end development, coupled with a keen eye for design and usability</p>
-                <button className='bg-red-800 lg:w-[10vw] lg:h-[7vh] rounded-xl text-white button2'>Read More</button>
+                <div className='flex text-3xl gap-3  '>
+                    <FaGithub className='text-zinc-100 hover:text-yellow-600'/>
+                    <FaLinkedin className='text-blue-800 hover:text-yellow-600'/>
+                    <FaInstagram className='text-pink-700 hover:text-yellow-600'/>
+                    <FaXTwitter className='text-zinc-100 hover:text-yellow-600'/>
+                </div>
             </div>
         </div>
         <div className='bg-black p-2 text-white text-center'>
-            <h1>My <span className='text-red-600'>SKILLS</span></h1>
+            <h1>My <span className='text-blue-900'>SKILLS</span></h1>
         </div>
     <div className='flex flex-col'>
         <div className='d-lg-flex flex flex-lg-row flex-col  gap-2 p-5 bg-black justify-around'>
-            <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
+            <div className='flex flex-col bg-black text-2xl text-blue-900 hover:text-yellow-600 items-center justify-center '>
                 <FaHtml5 className='size-20' />
                 <p>HTML</p>
             </div>
-            <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
+            <div className='flex flex-col bg-black text-2xl text-blue-900 hover:text-yellow-600 items-center justify-center '>
                 <FaCss3Alt className='size-20' />
                 <p>CSS</p>
             </div>
-            <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
+            <div className='flex flex-col bg-black text-2xl text-blue-900 hover:text-yellow-600 items-center justify-center '>
                 <IoLogoJavascript className='size-20' />
                 <p>JS.script</p>
             </div>
-            <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
+            <div className='flex flex-col bg-black text-2xl text-blue-900 hover:text-yellow-600 items-center justify-center '>
                 <BsBootstrapFill className='size-20' />
                 <p>Bootstrap</p>
             </div>
-            <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
+            <div className='flex flex-col bg-black text-2xl text-blue-900 hover:text-yellow-600 items-center justify-center '>
                 <SiTailwindcss  className='size-20' />
                 <p>Tailwind</p>
             </div>
-            <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
+            <div className='flex flex-col bg-black text-2xl text-blue-900 hover:text-yellow-600 items-center justify-center '>
                 <FaReact  className='size-20' />
                 <p>React</p>
             </div>
-            <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
+            <div className='flex flex-col bg-black text-2xl text-blue-900 hover:text-yellow-600 items-center justify-center '>
                 <FaLaravel className='size-20' />
                 <p>Laravel</p>
             </div>
         </div>
         <div className='d-lg-flex flex flex-lg-row flex-col  gap-16 lg:pl-24 bg-black'>
-            <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
+            <div className='flex flex-col bg-black text-2xl text-blue-900 hover:text-yellow-600 items-center justify-center '>
                 <FaSass  className='size-20' />
                 <p>Sass</p>
             </div>
-            <div className='flex flex-col bg-black text-2xl text-red-600 items-center justify-center '>
+            <div className='flex flex-col bg-black text-2xl text-blue-900 hover:text-yellow-600 items-center justify-center '>
                 <FaGitAlt className='size-20' />
                 <p>Git</p>
             </div>
