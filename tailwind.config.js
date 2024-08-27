@@ -4,7 +4,23 @@ module.exports = {
         "./src/**/*.{js,jsx,ts,tsx}",
     ],
     theme: {
-        extend: {},
-    },
+        extend: {
+          animation: {
+            'bounce-slow': 'bounce 2s infinite',
+            'rotate-slow': 'rotate 0.7s ease-in-out',
+          },
+          keyframes: {
+            bounce: {
+              '0%, 100%': { transform: 'translateY(0)' },
+              '50%': { transform: 'translateY(-10px)' },
+            },
+            rotate: {
+              '0%, 100%': { transform: 'rotate(0deg)' },
+              '50%': { transform: 'rotate(15deg)' },
+            },
+          },
+        },
+      },
     plugins: [],
 }
+  
