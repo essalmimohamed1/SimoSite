@@ -16,9 +16,9 @@ return (
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto text-xl flex gap-4">
-                        <Nav.Link className="text-white" href="#Home">Home</Nav.Link>
+                        <Nav.Link className="text-white" href="#Home"><span className='text-blue-900'>Home</span></Nav.Link>
                         <Nav.Link className="text-white" href="#SKILLS">Skills</Nav.Link>
-                        <Nav.Link className="text-white" href="#About"><span className='text-blue-900'>About</span></Nav.Link>
+                        <Nav.Link className="text-white" href="#About">About</Nav.Link>
                         <Nav.Link className="text-white"href="#Contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
