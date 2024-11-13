@@ -27,22 +27,59 @@
     display: flex;
     flex-direction: column;
     background-color: black;
-    color: #1e3a8a;
+    color: #1e3a8a; /* Default color */
     font-size: 2rem;
     text-align: center;
     justify-content: center;
     align-items: center;
     transition: transform 0.5s ease-in-out, color 0.5s ease-in-out;
-    animation: bounce 2s infinite;
 }
 
 .skill-item:hover {
-    transform: scale(1.3);
-    color: #fbbf24;
-    animation: rotate 0.7s ease-in-out;
+    transform: scale(1.3); /* Scale effect on hover */
+}
+
+/* Specific hover color for each icon and text */
+.skill-item.html:hover svg, .skill-item.html:hover p {
+    color: #e34c26; /* HTML - Orange */
+}
+
+.skill-item.css:hover svg, .skill-item.css:hover p {
+    color: #2965f1; /* CSS - Blue */
+}
+
+.skill-item.javascript:hover svg, .skill-item.javascript:hover p {
+    color: #f7df1e; /* JavaScript - Yellow */
+}
+
+.skill-item.bootstrap:hover svg, .skill-item.bootstrap:hover p {
+    color: #7952b3; /* Bootstrap - Purple */
+}
+
+.skill-item.tailwind:hover svg, .skill-item.tailwind:hover p {
+    color: #38bdf8; /* Tailwind - Light Blue */
+}
+
+.skill-item.react:hover svg, .skill-item.react:hover p {
+    color: #61dafb; /* React - Light Blue */
+}
+
+.skill-item.laravel:hover svg, .skill-item.laravel:hover p {
+    color: #ff2d20; /* Laravel - Red */
+}
+
+.skill-item.sass:hover svg, .skill-item.sass:hover p {
+    color: #cc6699; /* Sass - Pink */
+}
+
+.skill-item.git:hover svg, .skill-item.git:hover p {
+    color: #f34f29; /* Git - Orange-Red */
+}
+
+.skill-item svg, .skill-item p {
+    transition: transform 0.7s ease-in-out, color 0.5s ease-in-out;
 }
 
 .skill-item:hover svg {
-    transform: rotate(360deg);
-    transition: transform 0.7s ease-in-out;
+    transform: rotate(360deg); /* Rotate icon on hover */
 }
