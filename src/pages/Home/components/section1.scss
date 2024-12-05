@@ -76,6 +76,14 @@
     color: #f34f29; /* Git - Orange-Red */
 }
 
+.skill-item.python:hover svg, .skill-item.python:hover p {
+    color: goldenrod; /* Git - Orange-Red */
+}
+
+.skill-item.mysql:hover svg, .skill-item.mysql:hover p {
+    color: #61dafb;
+}
+
 .skill-item svg, .skill-item p {
     transition: transform 0.7s ease-in-out, color 0.5s ease-in-out;
 }

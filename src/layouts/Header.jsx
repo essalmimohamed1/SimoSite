@@ -16,8 +16,8 @@
             <Container className="hello lg:flex lg:gap-80 sm:flex sm:flex-row sm:gap-0 lg:justify-between">
             <Navbar.Brand href="#home">
                 <span className="text-4xl text-white font-extrabold w-[25vw]">
-                <span className="text-blue-900">M</span>E
-                <span className="text-blue-900">.</span>
+                    <span className="text-blue-900">M</span>E
+                    <span className="text-blue-900">.</span>
                 </span>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

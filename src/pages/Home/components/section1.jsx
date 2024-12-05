@@ -4,11 +4,16 @@ import img1 from '../../../assets/images/porfolio1.jpeg';
 import { FaHtml5, FaCss3Alt, FaReact, FaLaravel, FaSass, FaGitAlt, FaGithub, FaLinkedin, FaInstagram, FaExternalLinkAlt, FaBriefcase } from 'react-icons/fa';
 import { IoLogoJavascript } from "react-icons/io5";
 import { BsBootstrapFill } from "react-icons/bs";
+import { SiPython} from 'react-icons/si';
+
 import { SiTailwindcss, SiSass, SiMysql } from "react-icons/si";
 import img2 from '../../../assets/images/WhatsApp Image 2024-03-10 at 00.15.59.jpeg';
 import img3 from '../../../assets/images/RcaShop.jpeg';
 import img4 from '../../../assets/images/manager.jpeg';
 import img7 from '../../../assets/images/2Mprj.jpeg';
+import certificate1 from '../../../assets/images/17-short-specializations-certificate-essalmi-mohamed.jpg';
+import certificate2 from '../../../assets/images/17-short-specializations-certificate-essalmi-mohamed.jpg';
+
 
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
@@ -44,6 +49,35 @@ export const FirstSectionHome = () => {
             });
     };
         
+    const [isOpen, setIsOpen] = useState(false);
+    const [currentImage, setCurrentImage] = useState(null);
+
+    
+
+const certificates = [
+    {
+        title: 'Back-End Development',
+        issuer: 'ALX AFRICA',
+        date: 'Oct 2024',
+        imageUrl: certificate1
+    },
+    {
+        title: 'Full-Stack Web Development',
+        issuer: 'Lionsgeek',
+        date: 'May 2024',
+        imageUrl: certificate2
+    }
+];
+
+    const openModal = (imageUrl) => {
+        setCurrentImage(imageUrl);
+        setIsOpen(true);
+    };
+
+    const closeModal = () => {
+        setIsOpen(false);
+        setCurrentImage(null);
+    };
 
     const experiences = [
         {
@@ -163,54 +197,125 @@ export const FirstSectionHome = () => {
 
 
         <div id='SKILLS' className='bg-black p-2 text-white text-center'>
-    <h1>My <span className='text-blue-900'>SKILLS</span></h1>
-</div>
-    <div className='flex flex-col'>
-    <div className='flex flex-col'>
-    <div className='grid grid-cols-2 lg:flex lg:flex-row gap-6 p-5 bg-black justify-around'>
-        <div className='skill-item html'>
-            <FaHtml5 className='text-4xl size-20' />
-            <p>HTML</p>
+            <h1>My <span className='text-blue-900'>SKILLS</span></h1>
         </div>
-        <div className='skill-item css'>
-            <FaCss3Alt className='text-4xl size-20' />
-            <p>CSS</p>
+        <div className='flex flex-col justify-center'>
+            <div className='grid grid-cols-2 lg:flex lg:flex-row gap-6 p-5 bg-black justify-around'>
+                <div className='skill-item html'>
+                    <FaHtml5 className='text-4xl size-20' />
+                    <p>HTML</p>
+                </div>
+                <div className='skill-item css'>
+                    <FaCss3Alt className='text-4xl size-20' />
+                    <p>CSS</p>
+                </div>
+                <div className='skill-item javascript'>
+                    <IoLogoJavascript className='text-4xl size-20' />
+                    <p>JavaScript</p>
+                </div>
+                <div className='skill-item bootstrap'>
+                    <BsBootstrapFill className='text-4xl size-20' />
+                    <p>Bootstrap</p>
+                </div>
+                <div className='skill-item tailwind'>
+                    <SiTailwindcss className='text-4xl size-20' />
+                    <p>Tailwind</p>
+                </div>
+                <div className='skill-item react'>
+                    <FaReact className='text-4xl size-20' />
+                    <p>React</p>
+                </div>
+                <div className='skill-item laravel'>
+                    <FaLaravel className='text-4xl size-20' />
+                    <p>Laravel</p>
+                </div>
+                <div className='skill-item sass'>
+                    <FaSass className='text-4xl size-20' />
+                    <p>Sass</p>
+                </div>
+                <div className='skill-item git'>
+                    <FaGitAlt className='text-4xl size-20' />
+                    <p>Git</p>
+                </div>
+            </div>
+            <div className='grid grid-cols-2 lg:flex lg:flex-row gap-6 p-5 bg-black items-start'>
+                {/* Python Icon */}
+                <div className="skill-item python">
+                    <SiPython className="text-4xl size-20" />
+                    <p>Python</p>
+                </div>
+                {/* MySQL Icon */}
+                <div className="skill-item mysql">
+                    <SiMysql className="text-4xl size-20" />
+                    <p>MySQL</p>
+                </div>
+            </div>
         </div>
-        <div className='skill-item javascript'>
-            <IoLogoJavascript className='text-4xl size-20' />
-            <p>JavaScript</p>
-        </div>
-        <div className='skill-item bootstrap'>
-            <BsBootstrapFill className='text-4xl size-20' />
-            <p>Bootstrap</p>
-        </div>
-        <div className='skill-item tailwind'>
-            <SiTailwindcss className='text-4xl size-20' />
-            <p>Tailwind</p>
-        </div>
-        <div className='skill-item react'>
-            <FaReact className='text-4xl size-20' />
-            <p>React</p>
-        </div>
-        <div className='skill-item laravel'>
-            <FaLaravel className='text-4xl size-20' />
-            <p>Laravel</p>
-        </div>
-        <div className='skill-item sass'>
-            <FaSass className='text-4xl size-20' />
-            <p>Sass</p>
-        </div>
-        <div className='skill-item git'>
-            <FaGitAlt className='text-4xl size-20' />
-            <p>Git</p>
-        </div>
-    </div>
-</div>
 
-    <div className='grid grid-cols-2 lg:flex lg:flex-row gap-16 lg:pl-24 bg-black'>
-        
-    </div>
-    </div>
+
+        <div className="bg-black py-16 px-6">
+            <div className="text-center mb-12">
+                <h1 className="text-4xl font-bold text-white">
+                    My <span className="text-blue-500">Certificates</span>
+                </h1>
+                <p className="text-gray-400 mt-4 text-lg max-w-xl mx-auto">
+                    Showcasing my professional growth and achievements through certifications.
+                </p>
+            </div>
+
+            <div className="flex flex-col md:flex-row flex-wrap justify-center items-center gap-12">
+                {certificates.map((cert, index) => (
+                    <div
+                        key={index}
+                        className="relative w-full md:w-1/3 max-w-sm p-6 bg-gradient-to-tr from-gray-800 via-gray-900 to-black rounded-lg shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2"
+                    >
+                        <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-blue-500 opacity-20 rounded-lg blur-md"></div>
+                        <div className="relative z-10 flex flex-col justify-between h-full">
+                            <div>
+                                <h2 className="text-xl md:text-2xl font-bold text-white">
+                                    {cert.title}
+                                </h2>
+                                <p className="text-sm text-gray-300 mt-2">
+                                <span className="text-green-300">{cert.issuer}</span>
+                                </p>
+                                <p className="text-sm text-gray-400 mt-1">{cert.date}</p>
+                            </div>
+                            <button
+                                onClick={() => openModal(cert.imageUrl)}
+                                className="mt-4 w-full bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white py-2 rounded-lg hover:from-green-500 hover:to-purple-700 transition duration-300"
+                            >
+                                View Certificate
+                            </button>
+                        </div>
+                    </div>
+                ))}
+            </div>
+            {/* Modal */}
+            {isOpen && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
+                    <div className="relative bg-gradient-to-r from-gray-800 via-gray-900 to-black text-white rounded-xl shadow-2xl p-6 w-11/12 md:w-2/3 lg:w-1/2 animate-fadeIn">
+                        {/* Close Button */}
+                        <button
+                            onClick={closeModal}
+                            className="absolute top-4 right-4 w-10 h-10 flex items-center justify-center rounded-full bg-red-600 hover:bg-red-700 transition duration-300 shadow-lg"
+                        >
+                            <span className="text-xl font-bold">&times;</span>
+                        </button>
+
+                        {/* Image */}
+                        <div className="overflow-hidden rounded-lg">
+                            {currentImage && (
+                                <img
+                                    src={currentImage}
+                                    alt="Certificate"
+                                    className="w-full h-auto object-contain rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
+                                />
+                            )}
+                        </div>
+                    </div>
+                </div>
+            )}
+        </div>
 
 
     <div id='Experience' className='bg-black p-8 md:p-12 text-white'>
