@@ -64,8 +64,16 @@
     color: #61dafb; /* React - Light Blue */
 }
 
+.skill-item.github:hover svg, .skill-item.github:hover p {
+    color: white; /* React - Light Blue */
+}
+
 .skill-item.laravel:hover svg, .skill-item.laravel:hover p {
     color: #ff2d20; /* Laravel - Red */
+}
+
+.skill-item.php:hover svg, .skill-item.php:hover p {
+    color: #8993be; /* Laravel - Red */
 }
 
 .skill-item.sass:hover svg, .skill-item.sass:hover p {
@@ -81,7 +89,7 @@
 }
 
 .skill-item.mysql:hover svg, .skill-item.mysql:hover p {
-    color: #61dafb;
+    color: #00758F;
 }
 
 .skill-item svg, .skill-item p {

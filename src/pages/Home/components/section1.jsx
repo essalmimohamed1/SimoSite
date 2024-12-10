@@ -12,7 +12,7 @@ import img3 from '../../../assets/images/RcaShop.jpeg';
 import img4 from '../../../assets/images/manager.jpeg';
 import img7 from '../../../assets/images/2Mprj.jpeg';
 import certificate1 from '../../../assets/images/17-short-specializations-certificate-essalmi-mohamed.jpg';
-import certificate2 from '../../../assets/images/17-short-specializations-certificate-essalmi-mohamed.jpg';
+import certificate2 from '../../../assets/images/lionsgeek.jpeg';
 
 
 import { useRef } from "react";
@@ -21,6 +21,9 @@ import img5 from '../../../assets/images/P1085112-removebg-preview.png';
 import { FaXTwitter } from "react-icons/fa6";
 import React, { useState, useEffect } from 'react';
 import { TbFileCv } from "react-icons/tb";
+import { FaPhp } from 'react-icons/fa';
+
+import { FaPhone, FaEnvelope } from 'react-icons/fa';
 
 
 
@@ -200,57 +203,65 @@ const certificates = [
             <h1>My <span className='text-blue-900'>SKILLS</span></h1>
         </div>
         <div className='flex flex-col justify-center'>
-            <div className='grid grid-cols-2 lg:flex lg:flex-row gap-6 p-5 bg-black justify-around'>
-                <div className='skill-item html'>
-                    <FaHtml5 className='text-4xl size-20' />
-                    <p>HTML</p>
-                </div>
-                <div className='skill-item css'>
-                    <FaCss3Alt className='text-4xl size-20' />
-                    <p>CSS</p>
-                </div>
-                <div className='skill-item javascript'>
-                    <IoLogoJavascript className='text-4xl size-20' />
-                    <p>JavaScript</p>
-                </div>
-                <div className='skill-item bootstrap'>
-                    <BsBootstrapFill className='text-4xl size-20' />
-                    <p>Bootstrap</p>
-                </div>
-                <div className='skill-item tailwind'>
-                    <SiTailwindcss className='text-4xl size-20' />
-                    <p>Tailwind</p>
-                </div>
-                <div className='skill-item react'>
-                    <FaReact className='text-4xl size-20' />
-                    <p>React</p>
-                </div>
-                <div className='skill-item laravel'>
-                    <FaLaravel className='text-4xl size-20' />
-                    <p>Laravel</p>
-                </div>
-                <div className='skill-item sass'>
-                    <FaSass className='text-4xl size-20' />
-                    <p>Sass</p>
-                </div>
-                <div className='skill-item git'>
-                    <FaGitAlt className='text-4xl size-20' />
-                    <p>Git</p>
-                </div>
-            </div>
-            <div className='grid grid-cols-2 lg:flex lg:flex-row gap-6 p-5 bg-black items-start'>
-                {/* Python Icon */}
-                <div className="skill-item python">
-                    <SiPython className="text-4xl size-20" />
-                    <p>Python</p>
-                </div>
-                {/* MySQL Icon */}
-                <div className="skill-item mysql">
-                    <SiMysql className="text-4xl size-20" />
-                    <p>MySQL</p>
-                </div>
-            </div>
+    <div className='grid grid-cols-2 lg:flex lg:flex-row gap-6 p-5 bg-black justify-around'>
+        <div className='skill-item html'>
+            <FaHtml5 className='text-4xl size-20' />
+            <p>HTML</p>
         </div>
+        <div className='skill-item css'>
+            <FaCss3Alt className='text-4xl size-20' />
+            <p>CSS</p>
+        </div>
+        <div className='skill-item javascript'>
+            <IoLogoJavascript className='text-4xl size-20' />
+            <p>JavaScript</p>
+        </div>
+        <div className='skill-item bootstrap'>
+            <BsBootstrapFill className='text-4xl size-20' />
+            <p>Bootstrap</p>
+        </div>
+        <div className='skill-item tailwind'>
+            <SiTailwindcss className='text-4xl size-20' />
+            <p>Tailwind</p>
+        </div>
+        <div className='skill-item react'>
+            <FaReact className='text-4xl size-20' />
+            <p>React</p>
+        </div>
+        <div className='skill-item laravel'>
+            <FaLaravel className='text-4xl size-20' />
+            <p>Laravel</p>
+        </div>
+        <div className='skill-item sass'>
+            <FaSass className='text-4xl size-20' />
+            <p>Sass</p>
+        </div>
+        <div className='skill-item git'>
+            <FaGitAlt className='text-4xl size-20' />
+            <p>Git</p>
+        </div>
+    </div>
+    <div className='grid grid-cols-2 lg:flex lg:flex-row gap-6 p-5 bg-black items-start'>
+        <div className="skill-item python">
+            <SiPython className="text-4xl size-20" />
+            <p>Python</p>
+        </div>
+        <div className="skill-item mysql">
+            <SiMysql className="text-4xl size-20" />
+            <p>MySQL</p>
+        </div>
+        <div className="skill-item php">
+            <FaPhp className="text-4xl size-20" />
+            <p>PHP</p>
+        </div>
+        <div className="skill-item github">
+            <FaGithub className="text-4xl size-20" />
+            <p>GitHub</p>
+        </div>
+    </div>
+        </div>
+
+
 
 
         <div className="bg-black py-16 px-6">
@@ -468,31 +479,78 @@ const certificates = [
 </div>
 
 
-<div id='Contact' className="bg-black p-2 text-white text-center">
+            <div id='Contact' className="bg-black p-2 text-white text-center">
                 <h1>Contact <span className="text-blue-900">Me</span></h1>
             </div>
-            <div className="flex flex-col items-center bg-black p-6 text-white">
-                <form ref={form} onSubmit={sendEmail} className="w-full max-w-lg flex items-center pt-10 flex-col gap-4">
+            <div className="flex flex-col lg:flex-row-reverse items-center lg:items-start bg-black p-6 text-white">
+                {/* Left Section: Contact Info */}
+                <div className="bg-black text-white p-12 rounded-lg shadow-lg w-full lg:w-1/3 space-y-6">
+                    {/* Section Title */}
+                    <h2 className="text-2xl font-bold text-blue-900 border-b border-gray-700 pb-2">
+                        Contact Me
+                    </h2>
+
+                    {/* Phone Info */}
+                    <div className="flex items-center space-x-4">
+                        <FaPhone className="text-blue-900 text-2xl" />
+                        <a href="tel:+212777424727" className="text-white hover:text-blue-900 no-underline transition-colors">
+                        +212777424727
+                        </a>
+                    </div>
+
+                    {/* Email Info */}
+                    <div className="flex items-center space-x-4">
+                        <FaEnvelope className="text-blue-900 text-2xl" />
+                        <a href="mailto:essalmisimo0@gmail.com" className="text-white hover:text-blue-900 no-underline transition-colors">
+                        essalmisimo0@gmail.com
+                        </a>
+                    </div>
+
+                    {/* LinkedIn Info */}
+                    <div className="flex items-center space-x-4">
+                        <FaLinkedin className="text-blue-900 text-2xl" />
+                        <a
+                        href="https://www.linkedin.com/in/mohamedessalmi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-white hover:text-blue-900 transition-colors no-underline"
+                        >
+                        mohamedessalmi
+                        </a>
+                    </div>
+                </div>
+                {/* Right Section: Contact Form */}
+                <form
+                    ref={form}
+                    onSubmit={sendEmail}
+                    className="w-full lg:w-2/3 flex flex-col items-center pt-10 gap-4"
+                >
                     <input
-                        type="text"
-                        name="user_name"
-                        placeholder="Your Name"
-                        className="border-2 border-blue-900 p-2 lg:w-[30vw] w-[80vw]  rounded-xl bg-black"                        required
+                    type="text"
+                    name="user_name"
+                    placeholder="Your Name"
+                    className="border-2 border-blue-900 p-2 lg:w-[30vw] w-[80vw] rounded-xl bg-black"
+                    required
                     />
                     <input
-                        type="email"
-                        name="user_email"
-                        placeholder="Your Email"
-                        className="border-2 border-blue-900 p-2 lg:w-[30vw] w-[80vw]  rounded-xl bg-black"                        required
+                    type="email"
+                    name="user_email"
+                    placeholder="Your Email"
+                    className="border-2 border-blue-900 p-2 lg:w-[30vw] w-[80vw] rounded-xl bg-black"
+                    required
                     />
                     <textarea
-                        name="message"
-                        placeholder="Your Message"
-                        className="border-2 border-blue-900 p-2 lg:w-[30vw] w-[80vw]  rounded-xl bg-black"                        rows="5"
-                        required
+                    name="message"
+                    placeholder="Your Message"
+                    className="border-2 border-blue-900 p-2 lg:w-[30vw] w-[80vw] rounded-xl bg-black"
+                    rows="5"
+                    required
                     ></textarea>
-                    <button type="submit" className="border-none bg-blue-900 p-2 w-[80vw] lg:w-[15vw] text-white rounded-2xl hover:bg-yellow-500">
-                        Send
+                    <button
+                    type="submit"
+                    className="border-none bg-blue-900 p-2 w-[80vw] lg:w-[15vw] text-white rounded-2xl hover:bg-yellow-500"
+                    >
+                    Send
                     </button>
                 </form>
             </div>
