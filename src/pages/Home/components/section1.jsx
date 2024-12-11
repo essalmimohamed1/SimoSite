@@ -241,7 +241,7 @@ const certificates = [
             <p>Git</p>
         </div>
     </div>
-    <div className='grid grid-cols-2 lg:flex lg:flex-row gap-6 p-5 bg-black items-start'>
+    <div className='grid grid-cols-2 lg:flex lg:flex-row gap-10 p-5 bg-black '>
         <div className="skill-item python">
             <SiPython className="text-4xl size-20" />
             <p>Python</p>
@@ -492,7 +492,7 @@ const certificates = [
 
                     {/* Phone Info */}
                     <div className="flex items-center space-x-4">
-                        <FaPhone className="text-blue-900 text-2xl" />
+                        <FaPhone className="text-blue-900 lg:text-2xl" />
                         <a href="tel:+212777424727" className="text-white hover:text-blue-900 no-underline transition-colors">
                         +212777424727
                         </a>
@@ -500,7 +500,7 @@ const certificates = [
 
                     {/* Email Info */}
                     <div className="flex items-center space-x-4">
-                        <FaEnvelope className="text-blue-900 text-2xl" />
+                        <FaEnvelope className="text-blue-900 lg:text-2xl" />
                         <a href="mailto:essalmisimo0@gmail.com" className="text-white hover:text-blue-900 no-underline transition-colors">
                         essalmisimo0@gmail.com
                         </a>
@@ -508,7 +508,7 @@ const certificates = [
 
                     {/* LinkedIn Info */}
                     <div className="flex items-center space-x-4">
-                        <FaLinkedin className="text-blue-900 text-2xl" />
+                        <FaLinkedin className="text-blue-900 lg:text-2xl" />
                         <a
                         href="https://www.linkedin.com/in/mohamedessalmi"
                         target="_blank"
