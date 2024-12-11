@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SimoSite/static/css/main.ab03453b.css",
-    "main.js": "/SimoSite/static/js/main.d62bf75e.js",
+    "main.js": "/SimoSite/static/js/main.043a4b3f.js",
     "static/media/lionsgeek.jpeg": "/SimoSite/static/media/lionsgeek.63380252919ab64bb7f8.jpeg",
     "static/media/porfolio1.jpeg": "/SimoSite/static/media/porfolio1.244f3b7b2b9692bdd0a0.jpeg",
     "static/media/P1085112-removebg-preview.png": "/SimoSite/static/media/P1085112-removebg-preview.20069f7acefacba98fa7.png",
@@ -12,10 +12,10 @@
     "static/media/17-short-specializations-certificate-essalmi-mohamed.jpg": "/SimoSite/static/media/17-short-specializations-certificate-essalmi-mohamed.00d1720c497e11a457cd.jpg",
     "index.html": "/SimoSite/index.html",
     "main.ab03453b.css.map": "/SimoSite/static/css/main.ab03453b.css.map",
-    "main.d62bf75e.js.map": "/SimoSite/static/js/main.d62bf75e.js.map"
+    "main.043a4b3f.js.map": "/SimoSite/static/js/main.043a4b3f.js.map"
   },
   "entrypoints": [
     "static/css/main.ab03453b.css",
-    "static/js/main.d62bf75e.js"
+    "static/js/main.043a4b3f.js"
   ]
 }
