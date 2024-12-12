@@ -214,7 +214,7 @@ const certificates = [
         </div>
         <div className='skill-item javascript'>
             <IoLogoJavascript className='text-4xl size-20' />
-            <p>JavaScript</p>
+            <p>JS</p>
         </div>
         <div className='skill-item bootstrap'>
             <BsBootstrapFill className='text-4xl size-20' />
@@ -338,22 +338,22 @@ const certificates = [
             A journey of growth and learning through various roles.
             </p>
         </div>
-        <div className="space-y-10 px-4 sm:px-0">
+        <div className="space-y-10 px-4 sm:px-6 lg:px-8">
     {experiences.map((exp, index) => (
         <div
             key={index}
-            className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 p-8 rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+            className="bg-gradient-to-br from-gray-800 to-gray-900 border border-gray-700 p-6 md:p-8 rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
         >
-            <div className="flex flex-col sm:flex-row sm:justify-between items-start sm:items-center">
+            <div className="flex flex-col md:flex-row md:justify-between items-start md:items-center">
                 <div className="text-left space-y-2">
-                    <h2 className="text-3xl font-bold text-white tracking-wide">
+                    <h2 className="text-xl md:text-2xl lg:text-3xl font-bold text-white tracking-wide">
                         {exp.role}
                     </h2>
-                    <h3 className="text-lg text-blue-400 font-medium">
+                    <h3 className="text-sm md:text-base lg:text-lg text-blue-400 font-medium">
                         {exp.company}
                     </h3>
                 </div>
-                <div className="mt-4 sm:mt-0 text-sm text-gray-400 italic tracking-wide">
+                <div className="mt-2 md:mt-0 text-xs md:text-sm lg:text-base text-gray-400 italic tracking-wide">
                     {exp.period}
                 </div>
             </div>
@@ -361,7 +361,7 @@ const certificates = [
             {/* Decorative line */}
             <div className="my-4 h-px bg-gradient-to-r from-blue-500 to-indigo-500 w-full" />
 
-            <p className="mt-4 text-gray-300 leading-relaxed">
+            <p className="mt-4 text-gray-300 text-sm md:text-base leading-relaxed">
                 {exp.description}
             </p>
 
@@ -371,6 +371,7 @@ const certificates = [
         </div>
     ))}
 </div>
+
 
     </div>
 
@@ -500,7 +501,7 @@ const certificates = [
 
                     {/* Email Info */}
                     <div className="flex items-center space-x-4">
-                        <FaEnvelope className="text-blue-900 lg:text-2xl" />
+                        <FaEnvelope className="text-blue-900 text-2xl lg:text-2xl" />
                         <a href="mailto:essalmisimo0@gmail.com" className="text-white hover:text-blue-900 no-underline transition-colors">
                         essalmisimo0@gmail.com
                         </a>
