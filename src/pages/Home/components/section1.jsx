@@ -493,7 +493,7 @@ const certificates = [
 
                     {/* Phone Info */}
                     <div className="flex items-center space-x-4">
-                        <FaPhone className="text-blue-900 lg:text-2xl" />
+                        <FaPhone className="text-blue-900 text-2xl" />
                         <a href="tel:+212777424727" className="text-white hover:text-blue-900 no-underline transition-colors">
                         +212777424727
                         </a>
@@ -509,7 +509,7 @@ const certificates = [
 
                     {/* LinkedIn Info */}
                     <div className="flex items-center space-x-4">
-                        <FaLinkedin className="text-blue-900 lg:text-2xl" />
+                        <FaLinkedin className="text-blue-900 text-2xl" />
                         <a
                         href="https://www.linkedin.com/in/mohamedessalmi"
                         target="_blank"
