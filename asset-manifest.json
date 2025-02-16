@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/SimoSite/static/css/main.40a92011.css",
-    "main.js": "/SimoSite/static/js/main.697025ce.js",
+    "main.css": "/SimoSite/static/css/main.0c860e53.css",
+    "main.js": "/SimoSite/static/js/main.8e8079d9.js",
     "static/media/lionsgeek.jpeg": "/SimoSite/static/media/lionsgeek.63380252919ab64bb7f8.jpeg",
     "static/media/porfolio1.jpeg": "/SimoSite/static/media/porfolio1.244f3b7b2b9692bdd0a0.jpeg",
     "static/media/P1085112-removebg-preview.png": "/SimoSite/static/media/P1085112-removebg-preview.20069f7acefacba98fa7.png",
@@ -9,13 +9,14 @@
     "static/media/manager.jpeg": "/SimoSite/static/media/manager.463a2c9fb43c5e29d621.jpeg",
     "static/media/2Mprj.jpeg": "/SimoSite/static/media/2Mprj.b5877b5b7884872b0516.jpeg",
     "static/media/WhatsApp Image 2024-03-10 at 00.15.59.jpeg": "/SimoSite/static/media/WhatsApp Image 2024-03-10 at 00.15.59.b1930607b23edc754545.jpeg",
+    "static/media/organigram.jpeg": "/SimoSite/static/media/organigram.167b722b291a45c002c4.jpeg",
     "static/media/17-short-specializations-certificate-essalmi-mohamed.jpg": "/SimoSite/static/media/17-short-specializations-certificate-essalmi-mohamed.00d1720c497e11a457cd.jpg",
     "index.html": "/SimoSite/index.html",
-    "main.40a92011.css.map": "/SimoSite/static/css/main.40a92011.css.map",
-    "main.697025ce.js.map": "/SimoSite/static/js/main.697025ce.js.map"
+    "main.0c860e53.css.map": "/SimoSite/static/css/main.0c860e53.css.map",
+    "main.8e8079d9.js.map": "/SimoSite/static/js/main.8e8079d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.40a92011.css",
-    "static/js/main.697025ce.js"
+    "static/css/main.0c860e53.css",
+    "static/js/main.8e8079d9.js"
   ]
 }
