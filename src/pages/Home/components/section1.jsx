@@ -11,6 +11,8 @@ import img2 from '../../../assets/images/WhatsApp Image 2024-03-10 at 00.15.59.j
 import img3 from '../../../assets/images/RcaShop.jpeg';
 import img4 from '../../../assets/images/manager.jpeg';
 import img7 from '../../../assets/images/2Mprj.jpeg';
+import img8 from '../../../assets/images/organigram.jpeg';
+
 import certificate1 from '../../../assets/images/17-short-specializations-certificate-essalmi-mohamed.jpg';
 import certificate2 from '../../../assets/images/lionsgeek.jpeg';
 
@@ -465,6 +467,17 @@ const certificates = [
                         <div className='flex flex-col gap-3 items-center bg-gray-800 p-4 rounded-lg shadow-lg animate-project'>
                             <h2 className='text-2xl font-semibold text-white'>2M PROJECT</h2>
                             <img src={img7} className='w-full max-w-[500px] border-4 border-blue-900 rounded-lg' alt="Project 3" />
+                            <div className='flex gap-3 mt-4 text-2xl'>
+                                <FaLaravel className='text-red-600' title='Laravel' />
+                                <FaHtml5 className='text-orange-600' title='HTML5' />
+                                <SiTailwindcss className='text-teal-500' title='Tailwind CSS' />
+                                <SiSass className='text-pink-600' title='SASS' />
+                                <SiMysql className='text-blue-500' title='MySQL' />
+                            </div>
+                        </div>
+                        <div className='flex flex-col gap-3 items-center bg-gray-800 p-4 rounded-lg shadow-lg animate-project'>
+                            <h2 className='text-2xl font-semibold text-white'>2M organigramme</h2>
+                            <img src={img8} className='w-full h-full max-w-[500px] border-4 border-blue-900 rounded-lg' alt="Project 3" />
                             <div className='flex gap-3 mt-4 text-2xl'>
                                 <FaLaravel className='text-red-600' title='Laravel' />
                                 <FaHtml5 className='text-orange-600' title='HTML5' />
