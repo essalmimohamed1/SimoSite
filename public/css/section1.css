@@ -1,6 +1,2 @@
-.image {
-  width: 316px;
-  height: 316px;
-  background-color: rgba(255, 0, 0, 0.524);
-  border-radius: 51% 49% 49% 51%/45% 45% 55% 55%;
-}
+@import "@fontsource/poppins"; /* Defaults to 400 weight */
+

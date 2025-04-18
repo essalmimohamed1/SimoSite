@@ -5,6 +5,11 @@ module.exports = {
     ],
     theme: {
         extend: {
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+            alt: ['Montserrat', 'sans-serif'],
+            creative: ['Raleway', 'sans-serif'],  
+          },
           animation: {
             'bounce-slow': 'bounce 2s infinite',
             'rotate-slow': 'rotate 0.7s ease-in-out',
