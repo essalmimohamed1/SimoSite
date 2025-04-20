@@ -6,7 +6,7 @@ import './fonts.css';
 function App() {
     return (
         <>
-        <Header/>
+        {/* <Header/> */}
         <Home/>
         </>
     );

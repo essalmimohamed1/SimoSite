@@ -309,6 +309,7 @@
 /* RESPONSIVE DESIGN FOR PHONES */
 @media (max-width: 768px) {
     .image {
+      display: none;
         width: 380px; /* Reduce size for small screens */
         height: 380px;
         animation: mobileShift 5s ease-in-out infinite, mobileBounce 2s ease-in-out infinite;

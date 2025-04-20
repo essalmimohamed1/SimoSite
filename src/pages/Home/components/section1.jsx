@@ -431,20 +431,20 @@ const certificates = [
             name="user_name"
             placeholder="Name"
             required
-            className="w-full p-4 bg-black rounded-xl border border-[#00ff99] focus:ring-2 focus:ring-[#00ff99] outline-none text-black"
+            className="w-full p-4 bg-black rounded-xl border border-[#00ff99] focus:ring-2 focus:ring-[#00ff99] outline-none text-white"
             />
             <input
             type="email"
             name="user_email"
             placeholder="Email"
             required
-            className="w-full p-4 rounded-xl bg-black border border-[#00ff99] focus:ring-2 focus:ring-[#00ff99] outline-none text-black"
+            className="w-full p-4 rounded-xl bg-black border border-[#00ff99] focus:ring-2 focus:ring-[#00ff99] outline-none text-white"
             />
             <textarea
             name="message"
             placeholder="Message"
             required
-            className="w-full p-4 rounded-xl bg-black border border-[#00ff99] focus:ring-2 focus:ring-[#00ff99] outline-none text-black h-32 resize-none"
+            className="w-full p-4 rounded-xl bg-black border border-[#00ff99] focus:ring-2 focus:ring-[#00ff99] outline-none text-white h-32 resize-none"
             ></textarea>
 
             <button
