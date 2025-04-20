@@ -205,7 +205,7 @@ const certificates = [
 
 
 
-        <div className="skills-section" id='SKILLS'>
+        <div className="skills-section pt-10" id='SKILLS'>
       <h1 className="title">
         <span style={{ fontFamily: 'CreativeTypography' }}>Skills</span>
       </h1>
@@ -222,7 +222,7 @@ const certificates = [
 
 
 
-        <div className="exp-section">
+        <div className="exp-section pt-10">
                 <h1 style={{ fontFamily: 'CreativeTypography' }} className="titlecert">
                     Certificates
                 </h1>
@@ -256,7 +256,7 @@ const certificates = [
     </div>
 
 
-    <div id="Experience" className="exp-sec">
+    <div id="Experience" className="exp-sec pt-10">
         <div className='flex flex-col'>
             <h1 style={{ fontFamily: 'CreativeTypography' }}>
             Experience
