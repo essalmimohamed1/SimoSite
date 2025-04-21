@@ -87,7 +87,7 @@ const certificates = [
         {
           logo: "https://festivalculturesoufie.com/wp-content/uploads/2020/10/sponsors-partenaires-_0013_LOGO-2M.jpg", // Example 2M logo
           company: "2M TV",
-          duration: "6 mos",
+          duration: "2 mos",
           location: "On-site",
           role: "Full Stack Developer",
           type: "Contract",
@@ -98,7 +98,7 @@ const certificates = [
         {
           logo: "https://festivalculturesoufie.com/wp-content/uploads/2020/10/sponsors-partenaires-_0013_LOGO-2M.jpg",
           company: "2M TV",
-          duration: "2 month",
+          duration: "4 month",
           location: "On-site",
           role: "Full-stack Developer",
           type: "Internship",
@@ -533,7 +533,7 @@ const certificates = [
             target="_blank"
             className="text-base no-underline text-[#00ff99] hover:underline"
             >
-            Your LinkedIn
+            mohamedessalmi
             </a>
         </div>
 
@@ -556,7 +556,7 @@ const certificates = [
             target="_blank"
             className="text-base no-underline text-[#00ff99] hover:underline"
             >
-            Your GitHub
+            essalmimohamed1
             </a>
         </div>
         </div>
