@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/SimoSite/static/css/main.480ab8f2.css",
-    "main.js": "/SimoSite/static/js/main.2d65258c.js",
+    "main.js": "/SimoSite/static/js/main.b9b7f751.js",
     "static/media/rv.png": "/SimoSite/static/media/rv.b3cc79b13047c8e88b2c.png",
     "static/media/lionsgeek.jpeg": "/SimoSite/static/media/lionsgeek.63380252919ab64bb7f8.jpeg",
     "static/media/Bck.jpeg": "/SimoSite/static/media/Bck.4159fe277a4883c06b4c.jpeg",
@@ -44,10 +44,10 @@
     "static/media/raleway-vietnamese-400-normal.woff": "/SimoSite/static/media/raleway-vietnamese-400-normal.b1a419d3ead111471ac7.woff",
     "index.html": "/SimoSite/index.html",
     "main.480ab8f2.css.map": "/SimoSite/static/css/main.480ab8f2.css.map",
-    "main.2d65258c.js.map": "/SimoSite/static/js/main.2d65258c.js.map"
+    "main.b9b7f751.js.map": "/SimoSite/static/js/main.b9b7f751.js.map"
   },
   "entrypoints": [
     "static/css/main.480ab8f2.css",
-    "static/js/main.2d65258c.js"
+    "static/js/main.b9b7f751.js"
   ]
 }
