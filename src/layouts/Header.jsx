@@ -11,8 +11,8 @@
     };
 
     return (
-        <div className="fixed top-0 w-[100vw] z-30 p-3 left-[13%]">
-        <Navbar expand="lg" className=" border-2 border-white rounded-3xl w-[70%] bg-body-text-body-tertiary p-3 "
+        <div className="fixed top-0 w-[100vw] z-30 ">
+        <Navbar expand="lg" className=" w-[100%] bg-body-text-body-tertiary p-3 "
          style={{ background: "rgba(0, 255, 213, 0.331)" }}
         >
             <Container className="lg:flex  lg:gap-[20%] sm:flex sm:flex-row sm:gap-0 lg:justify-between">
